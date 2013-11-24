@@ -1,0 +1,28 @@
+/*
+Theme Name: 4ecommerce
+Description: 4ecommerce.pl - bootstrap
+Version: 0.1
+Author: 4ecommerce.pl
+Author URI: http://4ecommerce.pl
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+@import url('css/bootstrap.css'); 
+/*@import url('bootstrap/css/bootstrap-responsive.css');*/ 
+body {
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+
+.side-bar {width:270px;}
+.side-bar li > a{padding:3px 3px;}
+.affix {top: 115px;}
+.affix-top {top: 0px;}
+.affix-bottom {position: absolute;bottom:200px;}
+h1[id] { padding-top: 80px; margin-top: -45px;}
+h2[id] { padding-top: 60px; margin-top: -45px;}
+#prices_table td {line-height:40px;text-align:center;}
+#prices_table th {line-height:30px;text-align:center;}
+
+
