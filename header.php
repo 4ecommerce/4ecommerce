@@ -53,4 +53,12 @@ if (is_404()) {
         </div><!--/.nav-collapse -->
       </div>
     </div>
+    <?php  if(!isset($_COOKIE['accept_cookie'])): ?>
+    <div class="container">
+    	<div class="alert alert-warning alert-dismissable">
+  			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  			<strong>Warning!</strong> Best check yo self, you're not looking too good.
+		</div>
+    </div>    
+    <?php endif; ?>
   
